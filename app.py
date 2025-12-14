@@ -1,10 +1,12 @@
 import streamlit as st
 import tempfile
 import os
-from dotenv import load_dotenv
+import streamlit as st
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Load environment variables at the very start
-load_dotenv()
+
 
 from scriptmaker import create_db, generate_news
 from extract import extract_docx, extract_pdf, extract_txt, extract_youtube, clean_text
@@ -146,4 +148,5 @@ if run_btn:
         data=final_script,
         file_name="news_script.txt",
         mime="text/plain"
+
     )
