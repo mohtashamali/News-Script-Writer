@@ -1,11 +1,10 @@
 streamlit
+groq
 langchain
 langchain-community
 langchain-groq
 faiss-cpu
 sentence-transformers
-pdfplumber
+PyPDF2
 python-docx
 youtube-transcript-api
-python-dotenv
-
