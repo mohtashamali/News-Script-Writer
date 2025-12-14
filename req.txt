@@ -7,4 +7,5 @@ sentence-transformers
 pdfplumber
 python-docx
 youtube-transcript-api
-dotenv
+python-dotenv
+
